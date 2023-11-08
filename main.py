@@ -3,7 +3,7 @@ import os
 import openai
 
 openai.organization = 'org-rMvpxk4XJud2LTTNs0JqeVg4'
-openai.api_key_path = '/Users/gustavorubio/Downloads/ACM/JARVIS/apikey.txt'  # Set the path to your API key file
+openai.api_key_path = '/path/to/your/apikey.txt'  # Set the path to your API key file
 
 completion = openai.Completion()
 
